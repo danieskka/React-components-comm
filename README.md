@@ -18,6 +18,10 @@ Ahora podreis navegar por el siguiente puerto establecido en vuestro local:
 
 - http://localhost:5173/
 
+El proyecto esta desplegado y operativo en Netlify, aqui te dejo la url para que puedas probarlo sin necesidad de instalar nada en tu ordenador!
+
+- https://64a428982e01a0133a674911--iridescent-gingersnap-a1a4ad.netlify.app/
+
 - El proyecto es un formulario el cual mostrara los resultados que le introduzcas una vez pulses el boton de "Send", no dudes en utilizar una imagen real para que veas el resultado mas grafico!
 
 - En el header te mostrará el email que introduciste
