@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from "../../../context/userContext";
 
-const Formulario = ({ setForm }) => {
+const Formulario = ({ actualizarForm }) => {
 
   const { updateUserEmail } = useContext(UserContext);
   const [newUserEmail, setUserEmail] = useState('');
@@ -22,7 +22,7 @@ const Formulario = ({ setForm }) => {
 
     const userData = {name, email, url, age};
 
-    setForm(userData);
+    actualizarForm(userData);
 
   }
   

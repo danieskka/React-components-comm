@@ -6,10 +6,13 @@ import { UserContext } from "../../context/userContext";
 
 const Head = () => {
   
-  // No entiendo porque no funcionaba con "useremail"
   const { userEmail } = useContext(UserContext);
 
-  const [form, setForm] = useState('');
+  const [form, setForm] = useState({});
+
+  const actualizarForm = (userData) => {
+    setForm(userData);
+  }
 
   
   return (
@@ -17,7 +20,7 @@ const Head = () => {
         <div>
           <h2>User Email</h2>
           <p>{userEmail}</p>
-          <Formulario setForm={setForm} />
+          <Formulario actualizarForm={actualizarForm} />
           <Card form={form} />
         </div>
   
